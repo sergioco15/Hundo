@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
- <title>APP NAME: coding challenge by Sergio</title>
+ <title>Hundo: coding challenge by Sergio</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,7 +25,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
          <div class="container-fluid">
-             <a class="navbar-brand" href="#"><img src="/img/Black & Gold Luxury Initial G S Letter Logo.svg" height="50" width="" class="d-inline-block align-text-top">App NAME</a>
+             <a class="navbar-brand" href="#"><img src="/img/Black & Gold Luxury Initial G S Letter Logo.svg" height="50" width="" class="d-inline-block align-text-top">Hundo</a>
              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                  aria-label="Toggle navigation">
@@ -54,9 +54,15 @@
      </nav>
      <main class="content">
       <div class="container mt-5">
-        <h1>APP UI GOES HERE</h1>
-        <input type="text" id="message" placeholder="Enter a message">
-        <button id="btnSubmit" class="btn btn-primary">Display Message</button>
+        <h1>Enter a Number</h1>
+        <input type="number" id="startValue" placeholder="Enter a Number" value="1">
+        <input type="number" id="endValue" placeholder="Enter a Number" value="10">
+        <button id="btnSubmit" class="btn btn-primary mt-2">Display Number</button>
+          <div class="row" id="results">
+           <!--RESULTS GO IN HERE-->
+     
+          </div>
+        </div>
       </div>
      </main>
                  <!--footer section-->
@@ -84,7 +90,7 @@
     </script>
     <script src="/js/site.js"></script>
     <script>
-      document.getElementById("btnSubmit").addEventListener("click",getValue2);
+      document.getElementById("btnSubmit").addEventListener("click",getNumbers);
     </script>
     <!--sweetalerts-->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>

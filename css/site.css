@@ -50,7 +50,7 @@ margin-top: 3rem;
 /*navbar overrides end*/
 /*button>*/
 .btn-primary{
-color: white !importaant;
+color: white !important;
 background-color: var(--sc-primary-color) !important;
 border-color: var(--sc-secundary-color) !important;
 }
@@ -100,4 +100,15 @@ border-color: var(--sc-secundary-color) !important;
 .social>a:hover{
   color: var(-sc-secundary-color);
   opacity: .9;
+}
+
+.odd{
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+}
+
+.even{
+  font-size: 1.5rem;
+  color: green;
 }
